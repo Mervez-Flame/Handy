@@ -3,9 +3,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow-inline: hidden;
-
-    overflow-x: hidden;
     font-family: "Circular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 .head{
@@ -183,4 +180,56 @@ nav{
 .vetting-text a{
     color: #00CDED;
     text-decoration: none;
+}
+.happiness-guarantee{
+    display: flex;
+    flex-flow: row wrap;
+    width: 33.33333%;
+    
+}
+.happiness-guarantee-container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 4rem 1.5rem
+}
+.left-side{
+    background-color: #234B84;
+    color: white;
+    display: flex;
+}
+.your-happiness-guaranteed{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.your-happiness-text{
+    color: white;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+.your-happiness-text a{
+    color: white;
+}
+.bg-image{
+    content: '';
+    background-image: url(/assets/pages/home/dad_kid-097cc76….png);
+    background-position: 360px 0px;
+    background-repeat: no-repeat;
+    height: 545px;
+    position: absolute;
+}
+.align-middle{
+    align-items: center;
+}
+.get-handy-app-title{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #434343;
+}
+.download-app-paragraph{
+    color: #434343;
 }
