@@ -8,7 +8,6 @@
 .head{
     width: 100%;
     background-position: center;
-    background-size: contain;
     position: relative;
 }
 nav{
@@ -188,7 +187,7 @@ nav{
     
 }
 .happiness-guarantee-container{
-    margin-left: 1rem;
+    margin-left: 15%;
     margin-right: 1rem;
     padding: 4rem 1.5rem
 }
@@ -230,6 +229,46 @@ nav{
     margin-bottom: 1.5rem;
     color: #434343;
 }
+.download-app-container{
+    padding: 4rem;
+    
+}
 .download-app-paragraph{
     color: #434343;
+    width: 50%
+}
+.download-app-badge{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: 64px;
+    width: 213px;
+    -ms-interpolation-mode: bicubic;
+    padding:2% .5%;
+}
+#feautured-collection{
+    background-image: url(/assets/pages/services/shop_background_desktop-4760b71….png);
+}
+.featured-collection-body{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    max-width: 75rem;
+    margin: 0 auto
+}
+.shop-title{
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+.shop-text{
+    line-height: 20px;
+    text-align: left;
+    font-weight: 300;
+}
+.featured{
+    padding-top: 2.5rem;
+}
+.shop-now{
+    padding-top: 2rem;
+    align-items: left;
+    width: 100%;
 }
