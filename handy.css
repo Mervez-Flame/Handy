@@ -302,3 +302,18 @@ nav{
 .become-pro-photo{
     width: 50%;
 }
+.grids-container{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    max-width: 75rem;
+    margin: 0 auto;
+    color: #434343;
+}
+.our-partnership-container{
+    padding: 7rem 0;
+    text-align: center;
+}
+.our-partnership-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
