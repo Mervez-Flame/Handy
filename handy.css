@@ -241,34 +241,64 @@ nav{
     display: inline-block;
     vertical-align: middle;
     max-width: 100%;
-    height: 64px;
-    width: 213px;
     -ms-interpolation-mode: bicubic;
     padding:2% .5%;
+}
+.lazysloaded{
+    height: 64px;
+    width: 213px;
 }
 #feautured-collection{
     background-image: url(/assets/pages/services/shop_background_desktop-4760b71….png);
 }
-.featured-collection-body{
+.featured-body{
     padding-right: 1rem;
     padding-left: 1rem;
     max-width: 75rem;
     margin: 0 auto
 }
-.shop-title{
+.shop-titles{
     font-size: 2rem;
     margin-top: 4rem;
 }
-.shop-text{
+.shop-texts{
     line-height: 20px;
     text-align: left;
     font-weight: 300;
 }
 .featured{
     padding-top: 2.5rem;
+    color: #434343;
 }
 .shop-now{
     padding-top: 2rem;
     align-items: left;
     width: 100%;
+}
+.container-grid{
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-left: 1rem;
+    color: #434343;
+    max-width: 75rem;
+}
+.middle-align{
+    display: flex;
+    padding:0% 1%
+}
+.become-pros-container{
+    padding: 10rem 4rem 1.5rem 4rem;
+    width: 50%;
+}
+.become-pros-title{
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.become-pros-paragraph{
+    margin-bottom: 2.5rem;
+    line-height: 1.5;
+    width: 100%;
+}
+.become-pro-photo{
+    width: 50%;
 }
