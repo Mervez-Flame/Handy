@@ -396,7 +396,7 @@ nav{
     line-height: 1.4;
     font-size: 15px;
 }
-.guaranteer ul li a::after{
+/* .guaranteer ul li a::after{
     content:'';
     width: 0%;
     height: 1px;
@@ -407,7 +407,7 @@ nav{
 }
 .guaranteer ul li a:hover::after{
     width: 100%;
-}
+} */
 .locations{
     color: #8888;
     padding-left: 15rem;
@@ -446,4 +446,45 @@ nav{
     width: 137px;
     border: 1px solid #888;
     border-radius: 5px;
+}
+.social-media{
+    margin-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.social-media a{
+    padding: 5px;
+}
+.social-media .bx{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border: solid 1px;
+    border-color: #434343;
+    border-radius: 100%;
+}
+.foot-end{
+    margin-left: 5rem;
+}
+.foot-end-head{
+    color: white;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.foot-end-list{
+    list-style: none;
+}
+.foot-end-list li a{
+    color: #8888;
+}
+.first{
+    margin-left: -0.3rem;
+}
+.middle{
+    margin-left: -1.7rem;
+}
+.last{
+    margin-left: 8rem;
+}
+.foot-end-body{
+    display: flex;
 }
