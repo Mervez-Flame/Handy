@@ -134,6 +134,7 @@ nav{
     color: inherit;
     text-rendering: optimizeLegibility;
     color: #434343;
+    padding: 1% 0;
 }
 #second div p a{
     color: #00b0cc;
@@ -141,6 +142,7 @@ nav{
 }
 #second div p{
     color: #434343;
+    padding: 1.25% 0;
 }
 .card-holder{
     display: flex;
@@ -261,6 +263,7 @@ nav{
 .shop-titles{
     font-size: 2rem;
     margin-top: 4rem;
+    padding: 0 0 2rem 0;
 }
 .shop-texts{
     line-height: 20px;
@@ -309,6 +312,7 @@ nav{
     max-width: 75rem;
     margin: 0 auto;
     color: #434343;
+    font-family: sans-serif;
 }
 .our-partnership-container{
     padding: 7rem 0;
@@ -321,4 +325,125 @@ nav{
 .our-partnership-paragraph{
     padding: 0rem 1rem;
     margin-bottom: 4.5rem;
+}
+.img{
+    padding-bottom: 2.5rem;
+}
+.gridss{
+    font-size: 100%;
+}
+.customs-link{
+    border: 1px solid #D8D8D8;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    margin-bottom: 80px;
+    margin-top: 80px;
+    max-width: 75rem;
+    margin-left: 90px;
+    padding: 2rem;
+    color: #434343;
+}
+.llec p{
+    padding-bottom: 16px;
+}
+.llec p a{
+    font-size: 1.4em;
+    color: #434343;
+    font-weight: normal;
+    margin-top: 5rem;
+    -webkit-font-smoothing: antialiased;
+}
+.align-in-the-middle{
+    display: flex;
+    flex-direction: row;
+    margin-left: -1rem;
+}
+.linkers ul li a{
+    color: #434343;
+    font-weight:  normal;
+    text-decoration: none;
+}
+.linkers ul{
+    list-style: none;
+    line-height: 20px;
+}
+.linkers ul li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.foot{
+    margin-bottom: 0 !important;
+    padding: 3rem 0;
+    background-color: #1D1D1D;
+}
+.senter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footers{
+    display: flex;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+.guaranteer{
+    color: white;
+    position: relative;
+}
+.guaranteer ul{
+    list-style: none;
+}
+.guaranteer ul li{
+    line-height: 1.4;
+    font-size: 15px;
+}
+.guaranteer ul li a::after{
+    content:'';
+    width: 0%;
+    height: 1px;
+    background:white;
+    display: block;
+    margin: auto;
+    transition: 0.1s;
+}
+.guaranteer ul li a:hover::after{
+    width: 100%;
+}
+.locations{
+    color: #8888;
+    padding-left: 15rem;
+}
+.locations ul{
+    list-style: none;
+}
+.locations ul li a{
+    padding: 0.4rem;
+}
+.popular-services{
+    color: #8888;
+    padding-left: 15rem;
+}
+.popular-services ul{
+    list-style: none;
+}
+.list-head{
+    font-weight: bold;
+}
+.labels{
+    background-color: #1D1D1D;
+    color: #8888;
+    border-radius: 5%;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.download{
+    margin-left: 5rem;
+}
+.download a{
+    padding-right: 10px;
+}
+.lazylyloaded{
+    height: 42px;
+    width: 137px;
+    border: 1px solid #888;
+    border-radius: 5px;
 }
