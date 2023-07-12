@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="handy.css">
+  <link rel="stylesheet" href="responsive.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="shortcut icon" type="image/x-icon"
     href="https://cache-landingpages.services.handy.com/assets/favicon-465fb4e7d7152f5abb6b2ecf7330aefa8a067f174110dcd80324b56aeedfea59.ico">
@@ -17,8 +18,9 @@
 
 <body>
   <section class="head">
-    <nav>
+    <nav class="nav">
       <img src="Images/logos.svg" class="logo"></a>
+      <i class='bx bx-menu'></i>
       <div class="nav-links">
         <div>
           <ul>
@@ -31,7 +33,7 @@
           </ul>
         </div>
         <div>
-          <ul>
+          <ul class="nav-second">
             <li><a href="#">Become A Pro</a></li>
             <li><a href="#">Help</a></li>
             <li><a href="#">Log In</a></li>
@@ -44,31 +46,32 @@
   <section>
     <h1 class="header">The easy, reliable way to take care of your home.</h1>
 
-    <div class="rowz">
-      <div class="cols1">
-        <div>
-          <i class='bx bx-spray-can'></i>
+    <div class="carders">
+      <div class="card-1">
+        <div class="icon1">
+          <i class="bx bx-spray-can"></i>
         </div>
-        <div class="can11">
-          Home Cleaning
-        </div>
-      </div>
-      <div class="cols2">
-        <div>
-          <i class='bx bx-wrench'></i>
-        </div>
-        <div class="can22">
-          All Services
+        <div class="text">
+          Home Cleaning<i class='bx bx-chevron-right'></i>
         </div>
       </div>
-      <div class="cols3">
-        <div>
-          <i class='bx bx-cart-alt'></i>
+      <div class="card-2">
+        <div class="icon2">
+          <i class="bx bx-wrench"></i>
         </div>
-        <div class="can33">
-          The Home Shop
+        <div class="text2">
+          All Services<i class='bx bx-chevron-right'></i>
         </div>
       </div>
+      <div class="card-3">
+        <div class="icon3">
+          <i class="bx bx-cart-alt"></i>
+        </div>
+        <div class="text3">
+          The Book Shop<i class='bx bx-chevron-right'></i>
+        </div>
+      </div>
+    </div>
     </div>
   </section>
 
@@ -160,7 +163,6 @@
     </div>
   </section>
 
-
   <section class="vetting">
     <div class="vetting-head">
       <img class="vetted-icon lazyloaded"
@@ -218,7 +220,7 @@
           Book and manage appointments, message your pro, view pro profiles and ratings, see real-time location of your
           pro and so much more.
         </div>
-        <div class="send-link-container">
+        <div class="send-link">
           <div class="download-app-badge">
             <a href="https://handy.app.link/app"><img class=" lazysloaded"
                 data-src="https://cache-landingpages.services.handy.com/assets/apple-store-d6493fac1eadd81b56ec7378e97e7277c1e5d3ba97b9e0594aa5d88d43bfe634.png"
@@ -231,8 +233,8 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 show-for-medium download-app-photo"><img
-          src="/assets/pages/home/download_app-ecc06ca796984c2e7686b7aaa9c7a060d53c1207018d247d7698a959d648096c.png"
+      <div class="download-photo"><img
+          src="https://cache-landingpages.services.handy.com/assets/pages/home/download_app-ecc06ca796984c2e7686b7aaa9c7a060d53c1207018d247d7698a959d648096c.png"
           alt="">
       </div>
     </div>
@@ -256,8 +258,7 @@
               data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click"
               href="https://shop.handy.com">
               <div class="show-for-medium">
-                Shop All Home Products
-                <i class="far fa-angle-right button-arrow fa-chevron-right"></i>
+                Shop All Home Products<i class='bx bx-chevron-right'></i>
               </div>
               <div class="hide-for-medium">
                 Shop Now
@@ -551,6 +552,7 @@
           alt="">
       </a>
     </div>
+    <hr>
     <div class="foot-end">
       <div class="foot-end-head">Other Handy Services</div>
       <div class="foot-end-body">
@@ -594,42 +596,43 @@
           </ul>
         </div>
       </div>
+    </div>
+    <hr>
+    <div class="end">
+      <div class="ender">
+        <ul class="end-list">
+          <li>
+            <a>Contact</a>
+          </li>
+          <li>
+            <a>Privacy</a>
+          </li>
+          <li>
+            <a>CA Pre-Collection Notice</a>
+          </li>
+          <li>
+            <a>Do Not Sell or Share My Personal Information</a>
+          </li>
+          <li>
+            <a>Cookies</a>
+          </li>
+          <li>
+            <a>Terms</a>
+          </li>
+          <li>
+            <a>Cancellation Policy</a>
+          </li>
+          <li><a>Accessibility Tools</a></li>
+        </ul>
+      </div>
       <div class="">
-        <div class="">
-          <ul class="">
-            <li>
-              <a>Contact</a>
-            </li>
-            <li>
-              <a>Privacy</a>
-            </li>
-            <li>
-              <a>CA Pre-Collection Notice</a>
-            </li>
-            <li>
-              <a>Do Not Sell or Share My Personal Information</a>
-            </li>
-            <li>
-              <a>Cookies</a>
-            </li>
-            <li>
-              <a>Terms</a>
-            </li>
-            <li>
-              <a>Cancellation Policy</a>
-            </li>
-            <li><a>Accessibility Tools</a></li>
-          </ul>
-        </div>
-        <div class="">
-          <div class="">
-            <span>
-              2023 Handy. All rights reserved.
-            </span>
-            <strong>
-              Handy powered by Angi
-            </strong>
-          </div>
+        <div class="endered">
+          <span>
+            2023 Handy. All rights<br> reserved.
+          </span>
+          <strong>
+            Handy powered by Angi
+          </strong>
         </div>
       </div>
     </div>
